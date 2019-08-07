@@ -6,9 +6,7 @@
     <title>Story Time with Teo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-      body {
-        margin: 0;
-      }
+      
       .header {
         background-color: #ffb8c6;
         padding: 20px;
@@ -64,8 +62,23 @@
   background: #FF69B4;
   color: white;
 }
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
       </style>
   </head>
+
+  <body>
       
     <div class="header">
       <h1>Story Time with Teo</h1>
@@ -99,7 +112,7 @@
 </div>
 
         <!-- <p> <input type="button" value="Next Story" onclick="changestory()"> <p> -->
-  </body>
+</body>
 </html>
 
 
