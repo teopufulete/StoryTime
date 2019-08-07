@@ -27,20 +27,22 @@
 }
 
 .topnav a:hover {
-  background-color: #FF69B4;
+  background-color: #ffb8c6;
   color:black;
 }
 
 .leftcolumn {   
   float: left;
   width: 75%;
+  padding: 20px;
+  background-color: #ffb8c6;
 }
 
 .rightcolumn {
-  float: left;
+  float: right;
   width: 25%;
   background-color: #ffb8c6;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .row:after {
@@ -50,18 +52,22 @@
 }
 
 .card {
-  background-color: #ffe9f4;
+  background-color:white;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
+  border-radius: 5px
 }
+
 .fa-instagram {
-  background: #ffb8c6;
+  background: #FF69B4;
   color: white;
 }
+
 .fa-linkedin {
   background: #FF69B4;
   color: white;
 }
+
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -95,8 +101,7 @@
   <div class="leftcolumn">
     <div class="card">
       <h2>Welcome to my blog!</h2>
-      <p>Welcome to my blog! Here I'll be posting original short stories to keep track of my writing progress. Come with me on this fiction journey and make sure to listen to the recommended songs for the full immersion.</p>
-      
+      <p>Welcome to my blog! Here I'll be posting original short stories to keep track of my writing progress.<br> Come with me on this fiction journey and make sure to listen to the recommended songs for the full immersion.</p>      
     </div>
     
   <div class="rightcolumn">
@@ -104,11 +109,14 @@
       <h2>About Me</h2>
       <p>Aspiring programmer who's rediscovered her passion for writting.</p>
     </div>
+    
     <div class="card">
+        <h2>Follow Me</h2>
       <a href="#" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/nymphettamine_/" class="fa fa-instagram"></a>
     </div>
   </div>
+</div>
 </div>
 
         <!-- <p> <input type="button" value="Next Story" onclick="changestory()"> <p> -->
