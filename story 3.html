@@ -2,24 +2,150 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Story Time with Teo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+.font {
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: Lucida !important;
+}   
+
+.title {
+  background: url(https://t4.ftcdn.net/jpg/00/23/92/19/500_F_23921908_7vUsh4IHAjTwYveF3EK6HeRX2vN89tr6.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 1500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ffb8c6;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px
+}
+
+a:hover {
+  background-color: #ffb8c6;
+  color: black;
+}
+
+.previous {
+  background-color: black;
+  color: #ffb8c6;
+}
+
+.next {
+  background-color: black;
+  color: #ffb8c6;
+}
+
+      .topnav {
+  overflow: hidden;
+  background-color: #3f3f3f;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ffb8c6;
+  color:black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  padding: 20px;
+  background-color: #ffb8c6;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: #ffb8c6;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color:white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px
+}
+
+.fa {
+  font-size: 14px;
+  width: 45px;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #FF69B4;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #FF69B4;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+      </style>
   </head>
-    
-  <body bgcolor="ffe9f4">
 
-  <header>
-    <h1>Story Time with Teo</h1>
-
-    <nav>
-      <ul>
-        <li> <a href="index.html">Story 1</a> </a> </li>
-        <li> <a href="story 2.html">Story 2</a> </a> </li>
-        <li> <a href="story 3.html">Story 3</a> </a> </li>
-      </ul>
-    </nav>
-  </header>
-
-        <h1>Story 3</h1>
+  <body style="font-family:Lucida Sans"></body>
+      
+  <div class="title">STORY TIME WITH TEO </div>
+  
+      <div class="topnav">
+          <a href="index.html">Home</a> </a>
+          <a href="story 1.html">Story 1</a> </a> 
+          <a href="story 2.html">Story 2</a> </a> 
+          <a href="story 3.html">Story 3</a> </a> 
+      </div>
+  
+  
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Story 3</h2>
 
         <p>[WP] It's 3 AM. An official phone alert wakes you up. It says "DO NOT LOOK AT THE MOON". You have hundreds of notifications. Hundreds of random numbers are sending "It's a beautiful night tonight. Look outside."</p>
         <p>I had barely drifted off to sleep when I find myself woken up by a phone constantly vibrating. I gaze over to my boyfriend. He was still awake, scrolling through his phone.</p>
@@ -34,16 +160,44 @@
         <p>“Honey, are you okay?” I was panting. I peek through my fingers and I see him standing still. His eyes were widening and their color was changing. The deep and warm brown irises I’d get lost into for hours and hours every day were no longer there. Terror was settling in. I took a few steps back still covering my eyes when I hear a cracking noise. I peaked again. Oh, how I wish I hadn’t. His joints were bending at every wrong angle and his head had twisted at 180 degrees. I burst into tears. The love of my life was right beside me, yet I had never felt so helpless and terrified.</p>
         <p>He started squirming towards me. I didn’t run. Not knowing what to do, I dropped to the floor shaking and reached towards him. “Hold my hand. It’s g...going to be o...okay” I managed to mutter through my cries. What I once knew as his beautiful hand squeezed mine. It was ice cold. That’s when he finally spoke, in a gentle, all familiar tone.</p>
         <p>“It’s a beautiful night outside, my love. Look outside.”</p>
-<!-- 
-        <p> <input type="button" value="Previous Story" onclick="changestory()"> <p></p>
-        <p> <input type="button" value="Next Story" onclick="changestory()"> <p></p> -->
+      </div>
+    </div>
+      
+    <div class="rightcolumn">
+
+        <div class="card">
+            <h2>Recommended song</h2>
+            <p>Listen for full immersion. The story was fuelled by this piece.</p>
+            <iframe src="https://open.spotify.com/embed/track/0oYdXyRqVnOQi1gPKZRQ4X" width="300" height="260" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>      
+        </div>
+
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Aspiring programmer who's rediscovered her passion for writting.</p>
+      </div>
+      
+      <div class="card">
+          <h2>Follow Me</h2>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/nymphettamine_/" class="fa fa-instagram"></a>
+      </div>
+
+      
+    </div>
+  </div>  
+  
+  <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+      <a href="story 2.html" class="previous">&laquo; Previous</a>
+      <a href="story 4.html" class="next">Next &raquo;</a>
+    
+  </footer>
+  
   </body>
-</html>
+  
+  </html>
 
+    
 
+      
 
-
-
-
-
-
+       

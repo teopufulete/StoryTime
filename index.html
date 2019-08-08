@@ -3,15 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Story Time with Teo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Story Time with Teo </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-      
-      .header {
-        background-color: #ffb8c6;
-        padding: 20px;
-        text-align: center;
-      }
+
+
+.title {
+  background: url(https://t4.ftcdn.net/jpg/00/23/92/19/500_F_23921908_7vUsh4IHAjTwYveF3EK6HeRX2vN89tr6.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 1500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ffb8c6;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px
+}
+
+a:hover {
+  background-color: #ffb8c6;
+  color: black;
+}
+
+.previous {
+  background-color: black;
+  color: #ffb8c6;
+}
+
+.next {
+  background-color: black;
+  color: #ffb8c6;
+}
+
       .topnav {
   overflow: hidden;
   background-color: #3f3f3f;
@@ -58,6 +91,15 @@
   border-radius: 5px
 }
 
+.fa {
+  font-size: 14px;
+  width: 45px;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
 .fa-instagram {
   background: #FF69B4;
   color: white;
@@ -84,13 +126,12 @@
       </style>
   </head>
 
-  <body>
+  <body style="font-family:Lucinda Sans">
       
-    <div class="header">
-      <h1>Story Time with Teo</h1>
-    </div>
+    <div class="title">STORY TIME WITH TEO </div>
 
     <div class="topnav">
+        <a href="index.html">Home</a> </a>
         <a href="story 1.html">Story 1</a> </a> 
         <a href="story 2.html">Story 2</a> </a> 
         <a href="story 3.html">Story 3</a> </a> 
@@ -103,6 +144,7 @@
       <h2>Welcome to my blog!</h2>
       <p>Welcome to my blog! Here I'll be posting original short stories to keep track of my writing progress.<br> Come with me on this fiction journey and make sure to listen to the recommended songs for the full immersion.</p>      
     </div>
+  </div>
     
   <div class="rightcolumn">
     <div class="card">
@@ -115,13 +157,23 @@
       <a href="#" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/nymphettamine_/" class="fa fa-instagram"></a>
     </div>
-  </div>
-</div>
-</div>
 
-        <!-- <p> <input type="button" value="Next Story" onclick="changestory()"> <p> -->
+  </div>
+</div>  
+      <!-- <p> <input type="button" value="Next Story" onclick="changestory()"> <p> -->
+
+
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <a href="#" class="previous">&laquo; Previous</a>
+    <a href="story 1.html" class="next">Next &raquo;</a>
+  
+  
+</footer>
+
 </body>
+
 </html>
+
 
 
 
